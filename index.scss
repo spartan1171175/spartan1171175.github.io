@@ -1,0 +1,32 @@
+body{
+    background-color: #000;
+    margin: 0;
+}
+header{
+    background-color: #FFC700;
+    h1{
+        color:#000;
+        padding-left: 10px;
+        margin:0%;
+        display: inline-block;
+    }
+    nav{
+        float:right;
+        a{
+            color:#000;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-size: 25px;
+            padding-right: 10px;
+            font-weight: normal;
+        }
+        a.About{
+            padding-right: 30px;
+        }
+    }
+
+}
+h1{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
