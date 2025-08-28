@@ -1,37 +1,62 @@
 @import url("https://use.typekit.net/jdn5txj.css");
+
 body{
     background-color: #000;
     margin: 0;
 }
+
 header{
     background-color: #0a751189;
     padding-top: 10px;
     padding-bottom: 10px;
 
-        a{
-            color: #c4c4c4;
-            font-family: magistral-compressed;
-            text-decoration: none;
-            font-size: 25px;
-            padding-right: 10px;
-            font-weight: lighter;
-        }
-        a.About{
-            padding-right: 30px;
-        }
-
+    a{
+        color: #c4c4c4;
+        font-family: magistral-compressed;
+        text-decoration: none;
+        font-size: 40px;
+        padding-right: 10px;
+        font-weight: lighter;
+        align-self: center;
+    }
+    a:hover{
+        color:#fff;
+    }
+    a:active{
+        font-weight: normal;
+    }
+    
+    a.About{
+        padding-right: 30px;
+    }
+    
     h1{
-        padding-left: 10px;
+        padding-left: 20px;
         margin:0%;
         display: inline-block;
         font-weight: normal;
+        font-size: 40px;
     }
+    
     nav{
         float:right;
     }
 
 }
+
 h1, h2, p{
     color:#c4c4c4;
     font-family: magistral-compressed, Helvetica, sans-serif;
+}
+
+h1.title{
+    font-size: 100px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 200px;
+}
+
+h2.subtitle{
+    font-size: 40px;
+    text-align: center;
 }
