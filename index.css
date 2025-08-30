@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: rgba(10, 117, 17, 0.537254902);
+  background-color: rgba(117, 10, 33, 0.537254902);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -47,7 +47,7 @@ h1.title {
   font-size: 100px;
   margin-bottom: 0;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 h2.subtitle {
